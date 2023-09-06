@@ -1,0 +1,59 @@
+:root{
+    --bg-color: hsl(249, 19%, 14%);
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+/* Navbar */
+
+.menu{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: red;
+
+    padding: 0 2rem;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logo span{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.navbar__icons{
+    display: flex;
+    gap: 1rem;
+}
